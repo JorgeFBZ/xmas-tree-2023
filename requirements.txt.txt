@@ -1,0 +1,4 @@
+fastapi==0.68.0
+uvicorn==0.15.0
+gpiozero==1.7.2
+rpi-ws281x==4.2.5
