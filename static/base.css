@@ -1,0 +1,11 @@
+html {
+    background-color:rgb(128, 187, 128) ;
+}
+#title {
+    text-align: center;
+    color: red;
+}
+#title-section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Control de luces</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="base.css" ) }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <section class="jubotron-fluid" id="title-section">
+        <h1 class="display-3" id="title">Control de luces</h1>
+    </section>
+</head>
+
+<body>
+    <section>
+        <form action="" method="post"></form>
+        <h2>Selecciona un color:</h2>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="color_led" name="color_led" value="#ff0000">
+        <button class="submit"> Enviar</button>
+    </section>
+</body>
+
+</html>
