@@ -1,8 +1,12 @@
 from flask import Flask, render_template
 from flask import request
 from led_control import set_color
+import threading
 
-LED_COUNT = 59        # Number of LED pixels.
+STRIP_1 = 24          # Length first led strip
+STRIP_2 = 35          # Length second led strip
+
+LED_COUNT = STRIP_1 + STRIP_2   # Number of LED pixels.
 LED_PIN = 18          # GPIO pin connected to the pixels (18 uses PWM!).
 LED_FREQ_HZ = 800000  # LED signal frequency in hertz (usually 800khz)
 LED_DMA = 10          # DMA channel to use for generating signal (try 10)
